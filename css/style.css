@@ -116,6 +116,31 @@ button:hover{
   cursor: pointer;
 }
 
+.content_einladung{
+  position: absolute;
+  top: 27rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_einladung h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_einladung h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_einladung p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
 .countdown{
   position: absolute;
   top: 38rem;
@@ -142,7 +167,7 @@ button:hover{
 
 .social{
   position: absolute;
-  top: 38rem;
+  top: 31rem;
   right: 2rem;
   transform: translateY(-50%);
   
@@ -163,10 +188,33 @@ button:hover{
   cursor: pointer;
 }
 
+.social_einladung{
+  position: absolute;
+  top: 44.5rem;
+  right: 2rem;
+  transform: translateY(-50%);
+  
+}
+.social_einladung ul li{
+  list-style: none;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+.social_einladung ul li a{
+  color: #262728;
+  display: block;
+  font-size: 1.5rem;
+}
+.social_einladung ul li a:hover{
+  transform: scale(1.2) translateY(-5px);
+  transition: .3s;
+  cursor: pointer;
+}
+
 .slogan {
   position: absolute;
-  top: 90%;
-  left: 46%;
+  top: 53rem;
+  left: 2rem;
   transform: translateY(-50%);
 }
 
@@ -366,7 +414,7 @@ margin-right: 20px;
 
   .social{
     position: absolute;
-    top: 38rem;
+    top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
     
@@ -473,7 +521,7 @@ margin-right: 20px;
 
   .social{
     position: absolute;
-    top: 38rem;
+    top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
   }
@@ -529,7 +577,7 @@ margin-right: 20px;
 
     .social{
     position: absolute;
-    top: 38rem;
+    top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
   }
@@ -570,7 +618,7 @@ margin-right: 20px;
 
     .social{
     position: absolute;
-    top: 38rem;
+    top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
   }
@@ -611,7 +659,7 @@ margin-right: 20px;
 
     .social{
     position: absolute;
-    top: 38rem;
+    top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
   }
