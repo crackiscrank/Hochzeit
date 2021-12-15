@@ -118,7 +118,7 @@ button:hover{
 
 .content_einladung{
   position: absolute;
-  top: 27rem;
+  top: 29rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -190,7 +190,7 @@ button:hover{
 
 .social_einladung{
   position: absolute;
-  top: 44.5rem;
+  top: 46.5rem;
   right: 2rem;
   transform: translateY(-50%);
   
@@ -346,93 +346,20 @@ margin-right: 20px;
     left: 46%;
     transform: translateY(-50%);
   }
-
-  .content h1{
-    font-size: 4rem;
-    color: #262728;
-    line-height: 4rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .content h3{
-    color: #00bf9f;
-    font-size: 1.2rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .content p{
-    font-size: 0.8rem;
-    color: #585858;
-    line-height: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  button{
-    background: #262728;
-    border: 0.2rem solid transparent;
-    padding: 0.5rem 1.2rem;
-    border-radius: 2.5rem;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    line-height: 1.4rem;
-    margin-bottom: 1rem;
-  }
-  button:hover{
-    transform: scale(1.1);
-    transition: .3s;
-    cursor: pointer;
-  }
-  
+ 
   .countdown{
     position: absolute;
     top: 38rem;
     left: 46%;
     transform: translateY(-50%);
   }
-  .countdown h3{
-    color: #262728;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-  }
-  
-  .countdown p{
-    color: #00bf9f;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-  }
-  
-  .countdown t {
-    color: #585858;
-    font-size: 0.9rem;
-    letter-spacing: 0rem;
-  }
-
+ 
   .social{
     position: absolute;
     top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
     
-  }
-  .social ul li{
-    list-style: none;
-    text-align: center;
-    margin-top: 0.9rem;
-  }
-  .social ul li a{
-    color: #262728;
-    display: block;
-    font-size: 1.5rem;
-  }
-  .social ul li a:hover{
-    transform: scale(1.2) translateY(-5px);
-    transition: .3s;
-    cursor: pointer;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -453,93 +380,19 @@ margin-right: 20px;
     left: 50%;
     transform: translateY(-50%);
   }
-
-  .content h1{
-    font-size: 4rem;
-    color: #262728;
-    line-height: 4rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .content h3{
-    color: #00bf9f;
-    font-size: 1.2rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 1.5rem;
-  }
-
-  .content p{
-    font-size: 0.8rem;
-    color: #585858;
-    line-height: 1.2rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  button{
-    background: #262728;
-    border: 0.2rem solid transparent;
-    padding: 0.5rem 1.2rem;
-    border-radius: 2.5rem;
-    outline: none;
-    border: none;
-    color: white;
-    font-size: 0.8rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    line-height: 1.4rem;
-    margin-bottom: 1rem;
-  }
-  button:hover{
-    transform: scale(1.1);
-    transition: .3s;
-    cursor: pointer;
-  }
-  
+ 
   .countdown{
     position: absolute;
     top: 38rem;
     left: 50%;
     transform: translateY(-50%);
   }
-  .countdown h3{
-    color: #262728;
-    font-size: 2rem;
-    letter-spacing: 0.1rem;
-  }
   
-  .countdown p{
-    color: #00bf9f;
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-  }
-  
-  .countdown t {
-    color: #585858;
-    font-size: 0.9rem;
-    letter-spacing: 0rem;
-  }
-
   .social{
     position: absolute;
     top: 31.5rem;
     right: 2rem;
     transform: translateY(-50%);
-  }
-
-  .social ul li{
-    list-style: none;
-    text-align: center;
-    margin-top: 0.9rem;
-  }
-  .social ul li a{
-    color: #262728;
-    display: block;
-    font-size: 1.5rem;
-  }
-  .social ul li a:hover{
-    transform: scale(1.2) translateY(-5px);
-    transition: .3s;
-    cursor: pointer;
   }
 
   #check:checked ~ .nav-list {
