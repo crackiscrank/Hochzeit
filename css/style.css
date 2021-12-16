@@ -143,7 +143,7 @@ button:hover{
 
 .content_tagesablauf{
   position: absolute;
-  top: 61rem;
+  top: 68rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -168,7 +168,7 @@ button:hover{
 
 .content_anfahrt{
   position: absolute;
-  top: 122rem;
+  top: 137rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -436,7 +436,7 @@ margin-right: 20px;
 
   .content_tagesablauf{
     position: absolute;
-    top: 55rem;
+    top: 62rem;
     left: 2rem;
     transform: translateY(-50%);
   }
@@ -444,6 +444,13 @@ margin-right: 20px;
 }
 
 @media only screen and (min-width: 425px) {
+
+  .content_tagesablauf{
+    position: absolute;
+    top: 56rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
 
 }
 
@@ -482,6 +489,7 @@ margin-right: 20px;
     transform: translateY(-50%);
     
   }
+
 }
 @media only screen and (min-width: 1024px) {
   .bg{
