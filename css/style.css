@@ -141,6 +141,88 @@ button:hover{
   margin-bottom: 1.5rem;
 }
 
+.content_tagesablauf{
+  position: absolute;
+  top: 61rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_tagesablauf h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_tagesablauf h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_tagesablauf p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box-container .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  margin-left: 1rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 3.5rem;
+  padding-bottom: 3rem;
+  border-left: 0.1rem solid #aaa;
+  position: relative;
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 1rem;
+  border-radius: 20%;
+  background: #00bf9f;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 0rem;
+  left: -1rem;
+}
+
+.box-container .box span {
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 5rem;
+  padding: .3rem 1rem;
+  background: #00bf9f;
+}
+
+.box-container .box h3 {
+  font-size: 1.2rem;
+  padding: 0rem 0;
+  color: #262728;
+  padding-top: 1rem;
+  font-weight: normal;
+}
+
+.box-container .box p {
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 2;
+}
+
 .countdown{
   position: absolute;
   top: 38rem;
