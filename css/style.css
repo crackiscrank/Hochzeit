@@ -229,6 +229,94 @@ button:hover{
   text-decoration: underline;
 }
 
+.content_uebernachtung{
+  position: absolute;
+  top: 29rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_uebernachtung h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_uebernachtung h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_uebernachtung p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.uebernachtung-content {
+  display: grid;
+  /*display: flex; ab Tablet Ansicht
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.uebernachtung-box {
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.uebernachtung-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+.uebernachtung-box .bx {
+  padding-top: 2rem;
+  font-size: 24px;
+}
+.uebernachtung-box a {
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.content_rueckmeldung{
+  position: absolute;
+  top: 61rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_rueckmeldung h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_rueckmeldung h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_rueckmeldung p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
 .box-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,7 +562,14 @@ margin-right: 20px;
 
   .content_tagesablauf{
     position: absolute;
-    top: 62rem;
+    top: 61rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .content_anfahrt{
+    position: absolute;
+    top: 153rem;
     left: 2rem;
     transform: translateY(-50%);
   }
@@ -486,6 +581,13 @@ margin-right: 20px;
   .content_tagesablauf{
     position: absolute;
     top: 56rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .content_anfahrt{
+    position: absolute;
+    top: 142rem;
     left: 2rem;
     transform: translateY(-50%);
   }
