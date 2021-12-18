@@ -327,7 +327,7 @@ button:hover{
 
 .content_trauzeugen{
   position: absolute;
-  top: 53rem;
+  top: 57rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -366,11 +366,11 @@ button:hover{
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 .trauzeugen-box {
   padding: 10px;
-  width: 200px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -407,7 +407,7 @@ button:hover{
 
 .slogan_trauzeugen {
   position: absolute;
-  top: 107rem;
+  top: 113rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -419,6 +419,86 @@ button:hover{
   line-height: 1.2rem;
   margin-bottom: 1.5rem;
   margin-top: 0.5rem;
+}
+
+.content_kontakt{
+  position: absolute;
+  top: 31rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_kontakt h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_kontakt h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_kontakt p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content_kontakt p2{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.kontakt-content {
+  display: grid;
+  /*display: flex; ab Tablet Ansicht
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+.kontakt-box {
+  padding: 10px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.kontakt-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+.kontakt-box .bx {
+  padding-top: 2rem;
+  font-size: 24px;
+}
+.kontakt-box a {
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.kontakt-img {
+  display: grid;
+  justify-content: center;
+}
+.kontakt-img img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 
@@ -520,8 +600,8 @@ button:hover{
 
 .social_einladung{
   position: absolute;
-  top: 46.5rem;
-  right: 2rem;
+  top: 49.5rem;
+  right: 1rem;
   transform: translateY(-50%);
   
 }
@@ -543,17 +623,18 @@ button:hover{
 
 .slogan {
   position: absolute;
-  top: 53rem;
+  top: 54rem;
   left: 2rem;
   transform: translateY(-50%);
 }
 
 .slogan p {
-  color: #00bf9f;
-  font-size: 18px;
+  font-size: 0.8rem;
   font-style:italic;
-  letter-spacing: 1px;
-  margin-bottom: 20px;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
 }
 
 nav {
@@ -678,14 +759,14 @@ margin-right: 20px;
 
 .content_trauzeugen{
   position: absolute;
-  top: 57rem;
-  left: 2rem;
+  top: 59rem;
+  left: 3rem;
   transform: translateY(-50%);
 }
 
   .trauzeugen-box {
   padding: 10px;
-  width: 250px;
+  width: 280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -697,7 +778,47 @@ margin-right: 20px;
 
 .slogan_trauzeugen {
   position: absolute;
-  top: 113rem;
+  top: 116rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+.content_kontakt{
+  position: absolute;
+  top: 31rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+.kontakt-box {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.content_einladung{
+  position: absolute;
+  top: 26rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+.social_einladung{
+  position: absolute;
+  top: 43.5rem;
+  right: 1rem;
+  transform: translateY(-50%);
+}
+
+.slogan {
+  position: absolute;
+  top: 49rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -727,13 +848,13 @@ margin-right: 20px;
     .content_trauzeugen{
       position: absolute;
       top: 61rem;
-      left: 2rem;
+      left: 4rem;
       transform: translateY(-50%);
     }
     
       .trauzeugen-box {
       padding: 10px;
-      width: 300px;
+      width: 320px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -746,6 +867,46 @@ margin-right: 20px;
     .slogan_trauzeugen {
       position: absolute;
       top: 120rem;
+      left: 2rem;
+      transform: translateY(-50%);
+    }
+
+    .content_kontakt{
+      position: absolute;
+      top: 32rem;
+      left: 2rem;
+      transform: translateY(-50%);
+    }
+    
+    .kontakt-box {
+      padding: 10px;
+      width: 355px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 0.5rem;
+      border-bottom: 2px solid var(--main-color);
+      box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+    }
+
+    .content_einladung{
+      position: absolute;
+      top: 26rem;
+      left: 2rem;
+      transform: translateY(-50%);
+    }
+    
+    .social_einladung{
+      position: absolute;
+      top: 43.5rem;
+      right: 1rem;
+      transform: translateY(-50%);
+    }
+    
+    .slogan {
+      position: absolute;
+      top: 49rem;
       left: 2rem;
       transform: translateY(-50%);
     }
