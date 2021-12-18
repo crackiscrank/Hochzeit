@@ -325,6 +325,103 @@ button:hover{
       flex-wrap: wrap;
 }
 
+.content_trauzeugen{
+  position: absolute;
+  top: 53rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_trauzeugen h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_trauzeugen h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_trauzeugen p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content_trauzeugen p2{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.trauzeugen-content {
+  display: grid;
+  /*display: flex; ab Tablet Ansicht
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.trauzeugen-box {
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.trauzeugen-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+.trauzeugen-box .bx {
+  padding-top: 2rem;
+  font-size: 24px;
+}
+.trauzeugen-box a {
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.trauzeugen-img {
+  display: grid;
+  justify-content: center;
+}
+.trauzeugen-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.slogan_trauzeugen {
+  position: absolute;
+  top: 107rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+.slogan_trauzeugen p {
+  font-size: 0.8rem;
+  font-style:italic;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+
 .box-container .box {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
@@ -454,6 +551,7 @@ button:hover{
 .slogan p {
   color: #00bf9f;
   font-size: 18px;
+  font-style:italic;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
@@ -549,8 +647,6 @@ margin-right: 20px;
 }
 
 #check:checked ~ .nav-list {
-/*   height: 200vh;
-  width: 200vh; */
   height: 50rem;
   width: 22rem;
 }
@@ -580,6 +676,32 @@ margin-right: 20px;
       width: 23rem;
     }
 
+.content_trauzeugen{
+  position: absolute;
+  top: 57rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+  .trauzeugen-box {
+  padding: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
+.slogan_trauzeugen {
+  position: absolute;
+  top: 113rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
 }
 
 @media only screen and (min-width: 425px) {
@@ -599,10 +721,33 @@ margin-right: 20px;
   }
 
   #check:checked ~ .nav-list {
-    /*   height: 200vh;
-      width: 200vh; */
       height: 50rem;
       width: 26rem;
+    }
+    .content_trauzeugen{
+      position: absolute;
+      top: 61rem;
+      left: 2rem;
+      transform: translateY(-50%);
+    }
+    
+      .trauzeugen-box {
+      padding: 10px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 0.5rem;
+      border-bottom: 2px solid var(--main-color);
+      box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+    }
+    
+    .slogan_trauzeugen {
+      position: absolute;
+      top: 120rem;
+      left: 2rem;
+      transform: translateY(-50%);
     }
 
 
