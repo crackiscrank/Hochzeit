@@ -503,7 +503,7 @@ nav {
 
 .nav-list li {
   opacity: 0;
-  line-height: 30px;
+  line-height: 1px;
   margin: 50px 50px;
   display: flex;
   text-align: right;
