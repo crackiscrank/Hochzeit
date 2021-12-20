@@ -248,7 +248,7 @@ button:hover{
 
 .content_anfahrt{
   position: absolute;
-  top: 167rem;
+  top: 52rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -283,7 +283,7 @@ button:hover{
 }
 .anfahrt-box {
   padding: 20px;
-  width: 200px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -306,8 +306,18 @@ button:hover{
   color: #585858;
   line-height: 1.2rem;
   margin-bottom: 1.5rem;
+  margin-top: 0.4rem;
   text-decoration: underline;
 }
+.anfahrt-img {
+  display: grid;
+  justify-content: center;
+}
+.anfahrt-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
 .content_uebernachtung{
   position: absolute;
   top: 44rem;
