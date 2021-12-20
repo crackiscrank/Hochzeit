@@ -308,10 +308,9 @@ button:hover{
   margin-bottom: 1.5rem;
   text-decoration: underline;
 }
-
 .content_uebernachtung{
   position: absolute;
-  top: 29rem;
+  top: 44rem;
   left: 2rem;
   transform: translateY(-50%);
 }
@@ -334,6 +333,14 @@ button:hover{
   margin-bottom: 1.5rem;
 }
 
+.content_uebernachtung p2{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
 .uebernachtung-content {
   display: grid;
   /*display: flex; ab Tablet Ansicht
@@ -342,11 +349,11 @@ button:hover{
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 .uebernachtung-box {
-  padding: 20px;
-  width: 200px;
+  padding: 10px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -370,6 +377,15 @@ button:hover{
   line-height: 1.2rem;
   margin-bottom: 1.5rem;
   text-decoration: underline;
+}
+
+.uebernachtung-img {
+  display: grid;
+  justify-content: center;
+}
+.uebernachtung-img img {
+  width: 100%;
+  border-radius: 0.5rem;
 }
 
 .content_rueckmeldung{
@@ -922,6 +938,25 @@ margin-right: 20px;
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 
+.content_uebernachtung{
+  position: absolute;
+  top: 44rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+
+.uebernachtung-box {
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+
 }
 
 @media only screen and (min-width: 425px) {
@@ -1018,6 +1053,25 @@ margin-right: 20px;
     }
     
     .einladung_b-box {
+      padding: 10px;
+      width: 355px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-radius: 0.5rem;
+      border-bottom: 2px solid var(--main-color);
+      box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+    }
+
+    .content_uebernachtung{
+      position: absolute;
+      top: 46rem;
+      left: 2rem;
+      transform: translateY(-50%);
+    }
+    
+    .uebernachtung-box {
       padding: 10px;
       width: 355px;
       display: flex;
