@@ -1156,6 +1156,113 @@ margin-right: 20px;
     
   }
 
+  .content_einladung{
+    position: absolute;
+    top: 26rem;
+    left: 46%;
+    transform: translateY(-50%);
+  }
+
+  .content_einladung_b{
+    visibility: hidden;
+  }
+
+  .slogan {
+    position: absolute;
+    top: 49rem;
+    left: 46%;
+    transform: translateY(-50%);
+  }
+
+  .content_tagesablauf{
+    position: absolute;
+    top: 44rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .content_anfahrt{
+    position: absolute;
+    top: 73rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .anfahrt-box {
+    padding: 20px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+
+  .content_uebernachtung{
+    position: absolute;
+    top: 57rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+  
+  .uebernachtung-box {
+    padding: 20px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+
+  .content_trauzeugen{
+    position: absolute;
+    top: 90rem;
+    left: 4rem;
+    transform: translateY(-50%);
+  }
+  
+    .trauzeugen-box {
+    padding: 10px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+  
+  .slogan_trauzeugen {
+    position: absolute;
+    top: 178rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .content_kontakt{
+    position: absolute;
+    top: 39rem;
+    left: 2rem;
+    transform: translateY(-50%);
+  }
+  
+  .kontakt-box {
+    padding: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
 
 }
 @media only screen and (min-width: 1024px) {
