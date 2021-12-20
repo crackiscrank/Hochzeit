@@ -853,9 +853,21 @@ margin-right: 20px;
 
   .content_anfahrt{
     position: absolute;
-    top: 153rem;
+    top: 52rem;
     left: 2rem;
     transform: translateY(-50%);
+  }
+
+  .anfahrt-box {
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   }
 
   #check:checked ~ .nav-list {
@@ -980,9 +992,21 @@ margin-right: 20px;
 
   .content_anfahrt{
     position: absolute;
-    top: 142rem;
+    top: 52rem;
     left: 2rem;
     transform: translateY(-50%);
+  }
+
+  .anfahrt-box {
+    padding: 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   }
 
   #check:checked ~ .nav-list {
