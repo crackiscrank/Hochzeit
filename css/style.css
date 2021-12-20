@@ -731,6 +731,15 @@ button:hover{
   visibility:hidden;
 }
 
+.slogan p {
+  font-size: 0.8rem;
+  font-style:italic;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
 nav {
   height: 75px;
   width: 100%;
@@ -1149,19 +1158,10 @@ margin-right: 20px;
     transform: translateY(-50%);
   }
 
-  .slogan p {
-    font-size: 0.8rem;
-    font-style:italic;
-    color: #585858;
-    line-height: 1.2rem;
-    margin-bottom: 1.5rem;
-    margin-top: 0.5rem;
-  }
-
   .content_tagesablauf{
     position: absolute;
     top: 44rem;
-    left: 2rem;
+    left: 3rem;
     transform: translateY(-50%);
   }
 
@@ -1263,23 +1263,132 @@ margin-right: 20px;
     position: absolute;
 /*     top: 21rem;
     left: 23rem; */
-    top: 21rem;
+    top: 19rem;
     left: 50%;
     transform: translateY(-50%);
   }
  
   .countdown{
     position: absolute;
-    top: 38rem;
+    top: 36rem;
     left: 50%;
     transform: translateY(-50%);
   }
   
   .social{
     position: absolute;
-    top: 31.5rem;
+    top: 29.5rem;
     right: 2rem;
     transform: translateY(-50%);
+  }
+
+  .content_einladung{
+    position: absolute;
+    top: 25rem;
+    left: 50%;
+    transform: translateY(-50%);
+  }
+
+  .content_einladung_b{
+    visibility: hidden;
+  }
+
+  .slogan {
+    visibility:visible;
+    position: absolute;
+    top: 47rem;
+    left: 50%;
+    transform: translateY(-50%);
+  }
+
+  .content_tagesablauf{
+    position: absolute;
+    top: 43rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+
+  .content_anfahrt{
+    position: absolute;
+    top: 73rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+
+  .anfahrt-box {
+    padding: 20px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+
+  .content_uebernachtung{
+    position: absolute;
+    top: 57rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+  
+  .uebernachtung-box {
+    padding: 20px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+
+  .content_trauzeugen{
+    position: absolute;
+    top: 89rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+  
+    .trauzeugen-box {
+    padding: 10px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+  }
+  
+  .slogan_trauzeugen {
+    position: absolute;
+    top: 175rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+
+  .content_kontakt{
+    position: absolute;
+    top: 39rem;
+    left: 6%;
+    transform: translateY(-50%);
+  }
+  
+  .kontakt-box {
+    padding: 10px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color);
+    box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
   }
 
 }
@@ -1318,46 +1427,35 @@ margin-right: 20px;
     transform: translateY(-50%);
   }
 
-  
-}
-
-@media only screen and (min-width: 1300px) {
-
-  .bg{
+  .content_einladung{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 65%;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  .content{
-    position: absolute;
-/*     top: 21rem;
-    left: 23rem; */
-    top: 21rem;
-    left: 40%;
+    top: 25rem;
+    left: 45%;
     transform: translateY(-50%);
   }
 
-  .countdown{
+  .content_einladung_b{
+    visibility: hidden;
+  }
+
+  .slogan {
+    visibility:visible;
     position: absolute;
-    top: 38rem;
-    left: 40%;
+    top: 47rem;
+    left: 45%;
     transform: translateY(-50%);
   }
 
-    .social{
+  .content_tagesablauf{
     position: absolute;
-    top: 31.5rem;
-    right: 2rem;
+    top: 42rem;
+    left: 6%;
     transform: translateY(-50%);
   }
  
 }
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1300px) {
 
   .bg{
     position: absolute;
@@ -1370,24 +1468,82 @@ margin-right: 20px;
 
   .content{
     position: absolute;
-/*     top: 21rem;
-    left: 23rem; */
-    top: 21rem;
+    top: 19rem;
+    left: 40%;
+    transform: translateY(-50%);
+  }
+
+  .countdown{
+    position: absolute;
+    top: 36rem;
+    left: 40%;
+    transform: translateY(-50%);
+  }
+
+    .social{
+    position: absolute;
+    top: 29.5rem;
+    right: 2rem;
+    transform: translateY(-50%);
+  }
+ 
+} */
+
+@media only screen and (min-width: 1440px) {
+
+  .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .content{
+    position: absolute;
+    top: 19rem;
     left: 550px;
     transform: translateY(-50%);
   }
 
   .countdown{
     position: absolute;
-    top: 38rem;
+    top: 36rem;
     left: 550px;
     transform: translateY(-50%);
   }
 
     .social{
     position: absolute;
-    top: 31.5rem;
+    top: 29.5rem;
     right: 2rem;
+    transform: translateY(-50%);
+  }
+
+  .content_einladung{
+    position: absolute;
+    top: 26rem;
+    left: 550px;
+    transform: translateY(-50%);
+  }
+
+  .content_einladung_b{
+    visibility: hidden;
+  }
+
+  .slogan {
+    visibility:visible;
+    position: absolute;
+    top: 48rem;
+    left: 550px;
+    transform: translateY(-50%);
+  }
+
+  .content_tagesablauf{
+    position: absolute;
+    top: 29rem;
+    left: 100px;
     transform: translateY(-50%);
   }
  
