@@ -1136,7 +1136,7 @@ margin-right: 20px;
     position: absolute;
 /*     top: 21rem;
     left: 23rem; */
-    top: 21rem;
+    top: 19rem;
     left: 46%;
     transform: translateY(-50%);
   }
@@ -1150,7 +1150,7 @@ margin-right: 20px;
  
   .social{
     position: absolute;
-    top: 31.5rem;
+    top: 29em;
     right: 2rem;
     transform: translateY(-50%);
     
