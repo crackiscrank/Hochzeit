@@ -141,6 +141,86 @@ button:hover{
   margin-bottom: 1.5rem;
 }
 
+.content_einladung_b{
+  position: absolute;
+  top: 67rem;
+  left: 2rem;
+  transform: translateY(-50%);
+}
+.content_einladung_b h1{
+  font-size: 4rem;
+  color: #262728;
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+}
+.content_einladung_b h3{
+  color: #00bf9f;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1.5rem;
+}
+.content_einladung_b p{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content_einladung_b p2{
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.einladung_b-content {
+  display: grid;
+  /*display: flex; ab Tablet Ansicht
+
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-left: 0rem;
+}
+.einladung_b-box {
+  padding: 10px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
+}
+.einladung_b-box h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
+}
+.einladung_b-box .bx {
+  padding-top: 2rem;
+  font-size: 24px;
+}
+.einladung_b-box a {
+  font-size: 0.8rem;
+  color: #585858;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline;
+}
+
+.einladung_b-img {
+  display: grid;
+  justify-content: center;
+}
+.einladung_b-img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
 .content_tagesablauf{
   position: absolute;
   top: 68rem;
