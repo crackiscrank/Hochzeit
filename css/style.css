@@ -728,19 +728,7 @@ button:hover{
 }
 
 .slogan {
-  position: absolute;
-  top: 54rem;
-  left: 2rem;
-  transform: translateY(-50%);
-}
-
-.slogan p {
-  font-size: 0.8rem;
-  font-style:italic;
-  color: #585858;
-  line-height: 1.2rem;
-  margin-bottom: 1.5rem;
-  margin-top: 0.5rem;
+  visibility:hidden;
 }
 
 nav {
@@ -934,13 +922,6 @@ margin-right: 20px;
   transform: translateY(-50%);
 }
 
-.slogan {
-  position: absolute;
-  top: 49rem;
-  left: 2rem;
-  transform: translateY(-50%);
-}
-
 .content_einladung_b{
   position: absolute;
   top: 63rem;
@@ -1072,13 +1053,6 @@ margin-right: 20px;
       transform: translateY(-50%);
     }
     
-    .slogan {
-      position: absolute;
-      top: 49rem;
-      left: 2rem;
-      transform: translateY(-50%);
-    }
-
     .content_einladung_b{
       position: absolute;
       top: 66rem;
@@ -1168,10 +1142,20 @@ margin-right: 20px;
   }
 
   .slogan {
+    visibility:visible;
     position: absolute;
     top: 49rem;
     left: 46%;
     transform: translateY(-50%);
+  }
+
+  .slogan p {
+    font-size: 0.8rem;
+    font-style:italic;
+    color: #585858;
+    line-height: 1.2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
   }
 
   .content_tagesablauf{
