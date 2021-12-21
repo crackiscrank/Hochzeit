@@ -16,6 +16,7 @@ body{
   background: white;
 }
 
+
 /* .btn{
   background: transparent;
   border: 0.15rem solid #262728;
@@ -681,6 +682,7 @@ button:hover{
   letter-spacing: 0rem;
 }
 
+
 .social{
   position: absolute;
   top: 31rem;
@@ -706,8 +708,8 @@ button:hover{
 
 .social_einladung{
   position: absolute;
-  top: 49.5rem;
-  right: 1rem;
+  top: 49.3rem;
+  right: 1.5rem;
   transform: translateY(-50%);
   
 }
